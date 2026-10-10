@@ -63,3 +63,6 @@ ioslice = "0.6"
 
 [profile.release]
 lto = true
+
+[patch.crates-io]
+redox_syscall = { git = "https://gitlab.redox-os.org/redox-os/kernel.git" }
